@@ -1,0 +1,11 @@
+{
+  "guidance_scale": 8.0,
+  "img_width": 512,
+  "img_height": 512,
+  "inference_steps": 25,
+  "use_openvino": true,
+  "lcm_model_id": "SimianLuo/LCM_Dreamshaper_v7",
+  "use_seed": true,
+  "use_safety_checker": false,
+  "show_image": true
+}
