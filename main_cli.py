@@ -10,8 +10,12 @@ from uuid import uuid4
 import torch
 from diffusers import DiffusionPipeline
 
-from openvino.lcm_ov_pipeline import OVLatentConsistencyModelPipeline
-from openvino.lcm_scheduler import LCMScheduler
+
+from src.backend.lcmdiffusion.pipelines.openvino.lcm_ov_pipeline import (
+    OVLatentConsistencyModelPipeline,
+)
+
+from src.backend.lcmdiffusion.pipelines.openvino.lcm_scheduler import LCMScheduler
 
 # Constants
 RESULTS_DIRECTORY = "results"
